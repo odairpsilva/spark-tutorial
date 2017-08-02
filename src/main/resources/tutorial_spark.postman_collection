@@ -1,0 +1,141 @@
+{
+	"id": "5ace2ae0-7615-1eac-f419-6a36913a14b1",
+	"name": "Tutorial Spark",
+	"description": "",
+	"order": [
+		"ce3bb14c-116b-b25c-9837-8e23da567990",
+		"5ae78ded-4945-9390-385b-7da6c6b32276",
+		"906906f6-28d1-91bb-4ea2-de6cd1a63255",
+		"d34883c0-465e-31ea-379a-3df1aa05de6e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1501635719243,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5ae78ded-4945-9390-385b-7da6c6b32276",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4567/user/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5ace2ae0-7615-1eac-f419-6a36913a14b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Buscar usuario por id",
+			"description": "Busca um usuario pelo id",
+			"descriptionFormat": "html",
+			"time": 1501635901334,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nome\": \"Odair Silva\",\n\t\"email\": \"odair@odair.io\"\n}"
+		},
+		{
+			"id": "906906f6-28d1-91bb-4ea2-de6cd1a63255",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4567/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5ace2ae0-7615-1eac-f419-6a36913a14b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Salvar usuário",
+			"description": "Salvar usuário",
+			"descriptionFormat": "html",
+			"time": 1501636001392,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nome\": \"Jimi Hendrix\",\n\t\"email\": \"jimi@hendrix.io\"\n}"
+		},
+		{
+			"id": "ce3bb14c-116b-b25c-9837-8e23da567990",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4567",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5ace2ae0-7615-1eac-f419-6a36913a14b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Listar todos os usuarios",
+			"description": "Listar todos os usuarios",
+			"descriptionFormat": "html",
+			"time": 1501635724062,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nome\": \"Odair Silva\",\n\t\"email\": \"odair@odair.io\"\n}"
+		},
+		{
+			"id": "d34883c0-465e-31ea-379a-3df1aa05de6e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4567/user/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1501636296572,
+			"name": "Atualizar/Salvar (upsert) usuário",
+			"description": "Atualizar/Salvar (upsert) usuário",
+			"collectionId": "5ace2ae0-7615-1eac-f419-6a36913a14b1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"Satriani\",\n\t\"email\": \"satriani@odair.io\"\n}"
+		}
+	]
+}
